@@ -68,9 +68,9 @@ const experiences = [
     date: "Aug 2018 - June 2022",
     points: [
       "1510 SAT (800 MATH 710 READING)",
-      "127.5 AMC 10,120 AMC 12",
+      "127.5 AMC 10, 120 AMC 12",
       "3.7 Unweighted GPA",
-      "Presidential Gold Service Award, Class of 2022 School President, Varsity Volleyball Team Captain, FTC Robotics Team 14214 Team Captain.",
+      "Presidential Gold Service Award, Class of 2022 School President, Varsity Volleyball Team Captain, Club Volleyball Open National Bronze Medalist, FTC Robotics Team 14214 Team Captain.",
     ],
   },
 
@@ -130,7 +130,7 @@ const projects = [
   {
     name: "Stock Market Game",
     description:
-      "In progress development of Stock Market Game a few friends and I started over the summer.",
+      "In progress development of Stock Market Game a few friends and I started over the summer! Project is still in it's early development but will be finished soon...",
     tags: [
       {
         name: "js",
@@ -172,7 +172,7 @@ const projects = [
   {
     name: "Snake in Assembly",
     description:
-      "RISCV Assembly Snake final project for Com Sys/Assmbly Lan (CSE12). The github also contains several other labs done for that course",
+      "RISCV Assembly Snake final project for Com Sys/Assmbly Lan (CSE12). The github also contains several other labs done for that course.",
     tags: [
       {
         name: "assembly",
@@ -190,6 +190,28 @@ const projects = [
     image: carrent,
     source_code_link: "https://github.com/ezouu/arm_snake",
   },
+  {
+    name: "This Website",
+    description:
+      "Followed Online tutorials on Vite + React, one of my first introductions to web development! Plannning on making more sites for my other activites.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shopify,
+    source_code_link: "https://github.com/ezouu/portfolio",
+  },
+  
 ];
 
 export { services, experiences, projects };
